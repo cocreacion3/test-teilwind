@@ -5,7 +5,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs'
 
 export default function Sidebar() {
   return (
-    <div className="flex flex-col p-10 w-60 bg-sky-500 text-white">
+    <div className="flex flex-col p-10 w-60  text-white">
         <div className="flex items-center gap-1 py-1 rounded-xl text-center justify-center">
 
             <span className="text-neutral-100 text-4xl font-bold">MAGA</span>
