@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero_pattern': "url('/src/svg/background3.svg')",
+        'hero_pattern': "url('/src/svg/background.svg')",
         // 'footer-texture': "url('/img/footer-texture.png')",
       }
     }
   },
   plugins: [],
-}
+} 
