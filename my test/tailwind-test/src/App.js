@@ -1,6 +1,7 @@
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./components/shared/Layout";
 import Dashboard from "./components/Dashboard";
+import ProjectsSelector from "./components/ProjectsSelector";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Route index element={<Dashboard/>}/>
       {/* <Route path="dashboard" element={<Dashboard/>}/> */}
     </Route>
+    <Route path="/projects" element={<ProjectsSelector/>} />
   </Routes>
 </Router>    
   );

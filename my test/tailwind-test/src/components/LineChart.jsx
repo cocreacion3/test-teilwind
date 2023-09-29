@@ -51,8 +51,8 @@ export default function LineGraph() {
     return (
 
         <div className="place-items-center flex flex-col">
-            <div className="py-5 px-1 w-11/12 items-center text-center">
-                <div className="h-[20rem] bg-white p-2 rounded-xl border-gray-200 flex w-full">
+            <div className="py-5  w-11/12 items-center text-center">
+                <div className="h-[20rem] bg-white px-3 py-3 rounded-xl border-gray-200 flex w-full">
                     <strong className="text-gray-700 font-medium">Titulo</strong>
                     <div className='mt-3 flex-1 text-xs gap-5'>
                         <ResponsiveContainer width="100%" height="100%">
