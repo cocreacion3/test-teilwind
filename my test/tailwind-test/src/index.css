@@ -27,5 +27,9 @@
 }
 
 .commond-buttons {
-    @apply bg-white hover:bg-gray-100 text-blue-800 text-xl font-bold py-1 px-10 border border-gray-400 rounded-xl shadow mb-2;
+    @apply bg-white hover:bg-sky-300 text-blue-800 text-xl font-bold py-1 px-10 border border-gray-400 rounded-xl shadow mb-2;
+  }
+
+.commond-buttons-active {
+    @apply bg-sky-300 text-blue-800 text-xl font-bold py-1 px-10 border border-blue-500 rounded-xl shadow mb-2;
   }
