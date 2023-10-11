@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
-
+import Papa from 'papaparse';
 
 ////////////////////////////////////////////////Context Periodicity buttons
 const TimelapseContext = createContext();
@@ -122,3 +122,67 @@ export const DateProvider = ({ children }) => {
     </DateContext.Provider>
   );
 };
+
+////////////////////////////////////////////////Context for the packaged data
+const PackagedDataContext = createContext();
+
+export function PackagedDataProvider({children}){
+  const [packagedData, setPackagedData] = useState([]);
+
+  const updatePackagedData = (data)=>{
+    setPackagedData(data)
+  }
+
+  return(
+    <PackagedDataContext.Provider value={{packagedData, updatePackagedData}}>
+      {children}
+    </PackagedDataContext.Provider>
+  )
+}
+
+export function usePackagedData(){
+  const context = useContext(PackagedDataContext);
+  if (!context) {
+    throw new Error('usePackagedData must be used within a PackagedDataProvider');
+  }
+
+  return context;
+}
+////////////////////////////////////////////////Context for export data
+const ExportDataContext = createContext();
+
+export function ExportDataProvider({ children }) {
+  const [exportedData, setExportedData] = useState([]);
+
+  const exportToCSV = (data, fileName) => {
+    const csvData = data.map(item => [item]);
+    const csv = Papa.unparse(csvData);
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+
+    if (window.navigator.msSaveBlob) {
+      // For Internet Explorer
+      window.navigator.msSaveBlob(blob, fileName);
+    } else {
+      // For other browsers
+      const link = document.createElement('a');
+      const url = URL.createObjectURL(blob);
+      link.href = url;
+      link.download = fileName;
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // Store the data that was exported
+    setExportedData(csvData);
+  };
+
+  return (
+    <ExportDataContext.Provider value={{ exportToCSV, exportedData }}>
+      {children}
+    </ExportDataContext.Provider>
+  );
+}
+
+export function useExportData() {
+  return useContext(ExportDataContext);
+}

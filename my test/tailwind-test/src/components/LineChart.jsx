@@ -1,17 +1,29 @@
 import React, { PureComponent, useState, useEffect, useContext } from 'react';
-// import React, { PureComponent } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-// import { useGetList, QueryDevServResultContext} from './providers/QuerysManager'
 import { useGetData, QueryDataResultContext } from './providers/QuerysManager'
 import { useTimelapse } from './providers/SidebarContext'
+import { useExportData } from './providers/SidebarContext';
+import { useDevServSelected } from './providers/SidebarContext';
+import { usePackagedData } from './providers/SidebarContext';
+
 
 
 export default function LineGraph() {
     const { timelapse, updateTimelapse } = useTimelapse();
     const { isLoading, incomingData } = useGetData();
     const contextData = useContext(QueryDataResultContext);
-    // console.log(timelapse);
+    const { devServSelected, updateDevServSelected } = useDevServSelected();
+    const { dataToExport, dataToexportToCSV, updateExportData  } = useExportData();
+    const {packagedData, updatePackagedData} = usePackagedData();
+    const handlePackagedData = (name) =>{
+        updatePackagedData(name);
+    }
+    
+    let csvData = []
+    useEffect(() => {handlePackagedData(csvData);}, [csvData]); // This will ensure it's called when csvData changes
+
+
     if (!timelapse) {
         return <p>No data available for the graph timelapse.</p>;
     }
@@ -93,12 +105,41 @@ export default function LineGraph() {
             periodicity = []
     }
 
+    //////////////////////////////////////////////////////
+    const allGraphData = [];
+    let currentIndex = 0;
+    const dataTitle = devServSelected; // Your title here
+    
+    // Add the title at the very beginning of the CSV data
+    allGraphData.push([dataTitle]);
+    
+    propertyArrays.forEach((property, index) => {
+      const { prop, values } = property;
+      const graphName = uniquePropsNames[index];
+    
+      const data = hours.map((time, hourIndex) => [
+        `${periodicityLabel} ${time}`,
+        values[hourIndex],
+      ]);
+    
+      if (index === currentIndex) {
+        // Append the graph name as the title only once for each graph
+        data.unshift([`${prop}`, `${graphName}`]);
+        currentIndex++;
+      }
+    
+      allGraphData.push(data);
+    });
+    
+    // Flatten the array of data tto export
+    csvData = allGraphData.flat();
+    
 
     return (
         <div className="place-items-center flex flex-col">
             {propertyArrays.map((property, index) => {
                 const { prop, values } = property;
-                const {names} = uniquePropsNames[index]
+                const { names } = uniquePropsNames[index]
 
 
                 // Format data for the LineChart using the common 'hours' array
@@ -113,14 +154,14 @@ export default function LineGraph() {
                         <div className="h-[20rem] bg-white px-3 py-6 rounded-xl border-gray-200 flex w-full">
                             <div className="mt-3 flex-1 text-xs gap-5">
                                 <ResponsiveContainer width="100%" height="100%">
-                                    <LineChart width={400} height={300} data={data} margin={{top: 20, right: 10, left: -10, bottom: 0}}>
-                                        
+                                    <LineChart width={400} height={300} data={data} margin={{ top: 20, right: 10, left: -10, bottom: 0 }}>
+
                                         <CartesianGrid strokeDasharray="3 3" vertical={true} />
                                         <XAxis dataKey={"name"} />
                                         <YAxis />
                                         <Tooltip />
                                         <Legend />
-                                        <Line type="monotone" dataKey={prop} name={uniquePropsNames[index]} stroke="#8884d8" strokeWidth={2} activeDot={{ r: 8 }} legendType="none"/>
+                                        <Line type="monotone" dataKey={prop} name={uniquePropsNames[index]} stroke="#8884d8" strokeWidth={2} activeDot={{ r: 8 }} legendType="none" />
                                     </LineChart>
                                 </ResponsiveContainer>
                             </div>

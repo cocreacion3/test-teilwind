@@ -8,20 +8,24 @@ import { useDate } from '../providers/SidebarContext';
 
 import { useGetList, QueryDevServResultContext, useGetData } from '../providers/QuerysManager'
 import { useDetData, QueryDataResultContext } from '../providers/QuerysManager'
+import { useExportData } from '../providers/SidebarContext';
+import { usePackagedData } from '../providers/SidebarContext';
 
 
 export default function Testbutton() {
-  const { isLoading, incomingData } = useGetData();
-  const contextData = useContext(QueryDataResultContext);
-  let data = incomingData.data || [];
+  const {packagedData, updatePackagedData} = usePackagedData();
+  const { exportToCSV, exportedData } = useExportData();
 
-  console.log("Query data = ", data);
+      const handleExport = () => {
+      exportToCSV(packagedData, 'all_graphs_data.csv');
+    };
 
   return (
     <div>
       <div>
         <h2>Data:</h2>
-        <pre>{JSON.stringify(data, null, 2)}</pre>
+        {/* <pre>{JSON.stringify(packagedData, null, 2)}</pre> */}
+        <button onClick={handleExport}>Export All Graphs to CSV</button>
       </div>
     </div>
   );

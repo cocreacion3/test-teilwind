@@ -7,6 +7,8 @@ import { useTimelapse } from '../providers/SidebarContext'
 import { useShift } from '../providers/SidebarContext'
 import { useDataFilter } from '../providers/SidebarContext'
 import { useDevServSelected } from '../providers/SidebarContext';
+import { usePackagedData } from '../providers/SidebarContext';
+import { useExportData } from '../providers/SidebarContext';
 
 import Dateselector from '../Dateselector'
 
@@ -49,9 +51,14 @@ export default function Sidebar() {
         updateDevServSelected(name);
         // console.log("on sidebar", name);
     }
-
-    ////////////////////////////////////////////////////////////// 
-
+    //////////////////////////////////////////////////////////////Export data
+    const {packagedData, updatePackagedData} = usePackagedData();
+    const { exportToCSV, exportedData } = useExportData();
+    const handleExport = () => {
+        if (packagedData.length > 0) {
+            exportToCSV(packagedData, 'all_graphs_data.csv');
+        }
+      };
 
     return (
         <div className="flex flex-col p-10 w-60  text-white">
@@ -90,19 +97,22 @@ export default function Sidebar() {
 
 
                 <span className="text-withe text-xl font-bold ">Seleccionar</span>
-                <div className="w-40 h-48 overflow-y-auto py-2">
+                <div className="w-40 h-30 overflow-y-auto py-2">
                     {Array.isArray(devices) && devices.length > 0 && devices.map((device, index) => (
                         <label className="flex items-center mb-2" key={index}>
                             <input type="radio" name="selected-dev-serv" className="form-checkbox h-5 w-5 text-blue-600"  onClick={() => handleClickServDevSelected(device)}></input>
                             <span className="ml-2">{device}</span>
                         </label>
                     ))}
-
-
                 </div>
+                {/* <span className="text-withe text-xl font-bold ">Seleccionar</span> */}
+                <button className='commond-buttons' onClick={handleExport}>Exportar</button>
             </div>
         </div>
     )
 }
+
+
+
 
 
