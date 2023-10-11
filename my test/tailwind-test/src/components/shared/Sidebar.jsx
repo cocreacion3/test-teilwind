@@ -114,7 +114,7 @@ export default function Sidebar() {
                         </label>
                     ))}
                 </div>
-                <div className='py-4'>
+                <div className='py-3'>
                     <button className='commond-buttons py-10' onClick={handleExport}>Exportar</button>
                 </div>
             </div>
