@@ -1,21 +1,28 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 
 import { useTimelapse } from '../providers/SidebarContext'
-import { useShaft } from '../providers/SidebarContext'
+import { useShift } from '../providers/SidebarContext'
 import { useDataFilter } from '../providers/SidebarContext'
 import { useDevServSelected } from '../providers/SidebarContext';
+import { useDate } from '../providers/SidebarContext';
+
+import { useGetList, QueryDevServResultContext, useGetData } from '../providers/QuerysManager'
+import { useDetData, QueryDataResultContext } from '../providers/QuerysManager'
+
 
 export default function Testbutton() {
+  const { isLoading, incomingData } = useGetData();
+  const contextData = useContext(QueryDataResultContext);
+  let data = incomingData.data || [];
 
-    const { timelapse, updateTimelapse } = useTimelapse();
-    const { shaft, updateShaft } = useShaft();
-    const { dataFilter, updateDataFilter } = useDataFilter();
-    const { devServSelected, updateDevServSelected } = useDevServSelected();
-    
-    console.log("timelapse:", timelapse, "shaft:", shaft, "type:", dataFilter, "selected:", devServSelected);
-
+  console.log("Query data = ", data);
 
   return (
-<div > klAJSEDGHRFKJIQWEHRFT</div>
-  )
+    <div>
+      <div>
+        <h2>Data:</h2>
+        <pre>{JSON.stringify(data, null, 2)}</pre>
+      </div>
+    </div>
+  );
 }

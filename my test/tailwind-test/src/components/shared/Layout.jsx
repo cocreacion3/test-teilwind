@@ -8,10 +8,11 @@ import Dashboard from '../Dashboard'
 import Testbutton from './Testbutton'
 
 
-import { TimelapseProvider } from '../providers/SidebarContext'
-import { ShaftProvider } from '../providers/SidebarContext'
+import { DateProvider, TimelapseProvider } from '../providers/SidebarContext'
+import { ShiftProvider } from '../providers/SidebarContext'
 import { DataFilterProvider } from '../providers/SidebarContext'
-import { DevServSelectedProvider} from '../providers/SidebarContext'
+import { DevServSelectedProvider } from '../providers/SidebarContext'
+import { Dateselector } from '../providers/SidebarContext'
 
 
 
@@ -21,21 +22,18 @@ export default function Layout() {
   return (
     <div className="flex flex-row h-screen w-screen overflow-hidden px-5 py-5 bg-hero_pattern bg-no-repeat bg-cover">
       <QueryClientProvider client={queryClient}>
-        <TimelapseProvider><ShaftProvider><DataFilterProvider><DevServSelectedProvider>
+        <TimelapseProvider><ShiftProvider><DataFilterProvider><DevServSelectedProvider><DateProvider>
           <Sidebar />
-          <Testbutton />
-          </DevServSelectedProvider></DataFilterProvider></ShaftProvider></TimelapseProvider>
+          {/* <Testbutton /> */}
 
-        {/* <DevServSelectedProvider>
-          <Testbutton/>
-        </DevServSelectedProvider> */}
+
+
+          <div className='flex-1'>
+            <Header />
+            <Dashboard />
+          </div>
+        </DateProvider></DevServSelectedProvider></DataFilterProvider></ShiftProvider></TimelapseProvider>
       </QueryClientProvider>
-
-      
-      <div className='flex-1'>
-        <Header />
-        <Dashboard />
-      </div>
     </div>
   );
 }

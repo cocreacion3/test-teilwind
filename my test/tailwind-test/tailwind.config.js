@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ["./src/**/*.{html,js,jsx}", "./node_modules/tailwind-datepicker-react/dist/**/*.js"],
   theme: {
     extend: {
       backgroundImage: {
         'hero_pattern': "url('/src/svg/background.svg')",
-        // 'footer-texture': "url('/img/footer-texture.png')",
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 } 

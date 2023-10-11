@@ -27,26 +27,26 @@ export function useTimelapse() {
 }
 ////////////////////////////////////////////////Context Shaft buttons
 
-const ShaftContext = createContext();
+const ShiftContext = createContext();
 
-export function ShaftProvider({ children }) {
-  const [shaft, setShaft] = useState('day');
+export function ShiftProvider({ children }) {
+  const [shift, setShift] = useState('day');
 
-  const updateShaft = (newShaft) => {
-    setShaft(newShaft);
+  const updateShift = (newShift) => {
+    setShift(newShift);
   }
 
   return (
-    <ShaftContext.Provider value={{ shaft, updateShaft }}>
+    <ShiftContext.Provider value={{ shift, updateShift }}>
       {children}
-    </ShaftContext.Provider>
+    </ShiftContext.Provider>
   )
 }
 
-export function useShaft() {
-  const context = useContext(ShaftContext);
+export function useShift() {
+  const context = useContext(ShiftContext);
   if (!context) {
-    throw new Error('useShaft must be used within a ShaftProvider');
+    throw new Error('useShift must be used within a ShaftProvider');
   }
   return context;
 }
@@ -101,3 +101,24 @@ export function useDevServSelected() {
   
   return context;
 }
+
+////////////////////////////////////////////////Context for Date selected
+const DateContext = createContext();
+
+export const useDate = () => {
+  return useContext(DateContext);
+};
+
+export const DateProvider = ({ children }) => {
+  const [selectedDate, setSelectedDate] = useState(null);
+
+  const setDate = (day, month, year) => {
+    setSelectedDate({ day, month, year });
+  };
+
+  return (
+    <DateContext.Provider value={{ selectedDate, setDate }}>
+      {children}
+    </DateContext.Provider>
+  );
+};
