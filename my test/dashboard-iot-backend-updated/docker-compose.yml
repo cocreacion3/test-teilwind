@@ -1,0 +1,47 @@
+version: '3.1'
+services:
+  mongodb:
+    container_name: dashboardDataBase
+    volumes:
+      - mongodata:/data/db
+    restart: always
+    image:  mongo
+    command: mongod --port 28018
+    ports:
+      - '28018:28018'
+
+  pythonapp:
+    container_name: dashboard-backend
+    restart: always
+    build: ./
+    volumes:
+      - ./logs:/app/logs
+    command: python3 ./worker-mqtt.py
+    ports:
+      - "3002:3002"
+    links:
+      - mongodb
+      - flaskserver
+    depends_on:
+      - mongodb
+
+  flaskserver:
+    container_name: dashboard-router
+    build: ./
+    volumes:
+      - ./logs:/app/logs
+    command: python3 ./router.py
+    ports:
+      - "3001:3001"
+    restart: always
+    depends_on:
+      - mongodb
+      
+volumes:
+  mongodata:
+  
+
+
+
+#  docker-compose build   image creation with compose
+# docker-compose up --build       start services

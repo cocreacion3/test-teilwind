@@ -1,0 +1,759 @@
+2023-09-14 15:08:45,181 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5600
+2023-09-14 15:08:45,186 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 15:08:45,187 [INFO]  * Restarting with stat
+2023-09-14 15:08:51,517 [WARNING]  * Debugger is active!
+2023-09-14 15:08:51,520 [INFO]  * Debugger PIN: 124-810-195
+2023-09-14 15:09:20,366 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:09:20,367 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:09:35,279 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:09:35,280 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:10:27,697 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:10:27,698 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:10:42,624 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:10:42,625 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:13:42,913 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5600
+2023-09-14 15:13:42,922 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 15:13:42,924 [INFO]  * Restarting with stat
+2023-09-14 15:13:49,297 [WARNING]  * Debugger is active!
+2023-09-14 15:13:49,298 [INFO]  * Debugger PIN: 140-962-878
+2023-09-14 15:14:04,642 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:14:04,643 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:14:57,092 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:14:57,093 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:15:12,004 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:15:12,006 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:16:37,492 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5600
+ * Running on http://172.22.0.2:5600
+2023-09-14 15:16:38,311 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 15:16:38,312 [INFO]  * Restarting with stat
+2023-09-14 15:16:46,013 [WARNING]  * Debugger is active!
+2023-09-14 15:16:46,015 [INFO]  * Debugger PIN: 616-146-668
+2023-09-14 15:17:15,012 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:17:15,013 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:17:26,883 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:17:26,884 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:18:19,082 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:18:19,181 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:18:34,023 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:18:34,025 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:19:24,940 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:19:24,947 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:19:41,360 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:19:41,360 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:20:33,799 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:20:33,801 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:20:48,708 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:20:48,710 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:21:46,387 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://172.22.0.3:5700
+2023-09-14 15:21:46,388 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 15:21:46,389 [INFO]  * Restarting with stat
+2023-09-14 15:21:52,704 [WARNING]  * Debugger is active!
+2023-09-14 15:21:52,705 [INFO]  * Debugger PIN: 712-240-403
+2023-09-14 15:21:58,080 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:21:58,081 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:22:48,477 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:22:48,478 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:23:02,838 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:23:02,838 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:23:15,668 [INFO] 172.22.0.1 - - [14/Sep/2023 15:23:15] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:23:18,414 [INFO] 172.22.0.1 - - [14/Sep/2023 15:23:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-09-14 15:23:55,814 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:23:55,815 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:24:12,270 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:24:12,275 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:24:46,811 [INFO] 172.22.0.1 - - [14/Sep/2023 15:24:46] "GET /data_services HTTP/1.1" 200 -
+2023-09-14 15:25:03,156 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:25:03,157 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:25:18,083 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:25:18,084 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:26:10,494 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:26:10,495 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:26:25,456 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:26:25,460 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:27:17,821 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:27:17,821 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:29:49,368 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://172.22.0.3:5700
+2023-09-14 15:29:49,369 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 15:29:49,370 [INFO]  * Restarting with stat
+2023-09-14 15:29:55,660 [WARNING]  * Debugger is active!
+2023-09-14 15:29:55,758 [INFO]  * Debugger PIN: 224-143-051
+2023-09-14 15:29:57,794 [INFO] 172.22.0.1 - - [14/Sep/2023 15:29:57] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=monthly&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:29:57,797 [INFO] 172.22.0.1 - - [14/Sep/2023 15:29:57] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:29:57,798 [INFO] 172.22.0.1 - - [14/Sep/2023 15:29:57] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=weekly&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:29:57,799 [INFO] 172.22.0.1 - - [14/Sep/2023 15:29:57] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:29:59,871 [INFO] 172.22.0.1 - - [14/Sep/2023 15:29:59] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:30:00,250 [INFO] 172.22.0.1 - - [14/Sep/2023 15:30:00] "GET /query_services HTTP/1.1" 200 -
+2023-09-14 15:30:39,863 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:30:39,865 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:30:54,798 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:30:54,800 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:31:42,109 [INFO] 172.22.0.1 - - [14/Sep/2023 15:31:42] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=monthly&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:31:42,114 [INFO] 172.22.0.1 - - [14/Sep/2023 15:31:42] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:31:42,132 [INFO] 172.22.0.1 - - [14/Sep/2023 15:31:42] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:31:42,139 [INFO] 172.22.0.1 - - [14/Sep/2023 15:31:42] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:31:47,193 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:31:47,194 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:32:02,125 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:32:02,126 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:37:42,985 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://172.22.0.2:5700
+2023-09-14 15:37:42,986 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 15:37:42,987 [INFO]  * Restarting with stat
+2023-09-14 15:37:49,333 [WARNING]  * Debugger is active!
+2023-09-14 15:37:49,334 [INFO]  * Debugger PIN: 976-937-197
+2023-09-14 15:38:31,253 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:38:31,254 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:38:45,391 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:38:45,392 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:38:46,192 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:38:46,194 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:39:01,159 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:39:01,160 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:40:02,678 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:40:02,769 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:40:08,042 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:40:08,045 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:41:00,142 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:41:00,145 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:41:15,037 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:41:15,038 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:41:24,685 [INFO] 172.22.0.1 - - [14/Sep/2023 15:41:24] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:41:24,689 [INFO] 172.22.0.1 - - [14/Sep/2023 15:41:24] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:41:24,715 [INFO] 172.22.0.1 - - [14/Sep/2023 15:41:24] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:41:31,766 [INFO] 172.22.0.1 - - [14/Sep/2023 15:41:31] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=weekly&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:41:47,403 [INFO] 172.22.0.1 - - [14/Sep/2023 15:41:47] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:41:47,407 [INFO] 172.22.0.1 - - [14/Sep/2023 15:41:47] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=weekly&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:41:47,425 [INFO] 172.22.0.1 - - [14/Sep/2023 15:41:47] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:42:07,422 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:42:07,423 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:42:09,298 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:09] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:42:09,319 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:09] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=weekly&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:42:09,335 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:09] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:42:09,356 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:09] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:42:21,639 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:21] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=weekly&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:42:22,376 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:42:22,377 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:42:25,949 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:25] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:42:41,983 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:41] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:42:42,442 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:42] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:42:42,447 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:42] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:42:44,288 [INFO] 172.22.0.1 - - [14/Sep/2023 15:42:44] "GET /data_services HTTP/1.1" 200 -
+2023-09-14 15:43:09,600 [INFO] 172.22.0.1 - - [14/Sep/2023 15:43:09] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:43:14,759 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:43:14,760 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:43:29,708 [INFO] sysid= 1 id= maga-003 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:43:29,709 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:44:22,070 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:44:22,071 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 15:45:47,652 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://172.22.0.3:5700
+2023-09-14 15:45:47,653 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 15:45:47,654 [INFO]  * Restarting with stat
+2023-09-14 15:45:49,527 [WARNING]  * Debugger is active!
+2023-09-14 15:45:49,529 [INFO]  * Debugger PIN: 647-681-830
+2023-09-14 15:45:52,601 [INFO] 172.22.0.1 - - [14/Sep/2023 15:45:52] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:46:08,033 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:08] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:46:08,034 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:08] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:46:08,061 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:08] "GET /query_devices HTTP/1.1" 200 -
+2023-09-14 15:46:10,771 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:10] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=weekly&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:46:14,331 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:14] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=&shift=day HTTP/1.1" 200 -
+2023-09-14 15:46:17,400 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:17] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=maga-006&shift=day HTTP/1.1" 200 -
+2023-09-14 15:46:18,859 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:18] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=maga-003&shift=day HTTP/1.1" 200 -
+2023-09-14 15:46:19,703 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:19] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=maga-006&shift=day HTTP/1.1" 200 -
+2023-09-14 15:46:20,506 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:20] "GET /data_devices?day=14&week=2&month=9&year=2023&periodicity=daily&item=maga-003&shift=day HTTP/1.1" 200 -
+2023-09-14 15:46:21,346 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:21] "GET /query_services HTTP/1.1" 200 -
+2023-09-14 15:46:23,083 [INFO] 172.22.0.1 - - [14/Sep/2023 15:46:23] "GET /data_services?day=14&week=2&month=9&year=2023&periodicity=daily&item=UCI-test&shift=day HTTP/1.1" 200 -
+2023-09-14 15:46:36,772 [INFO] sysid= 1 id= maga-006 app= Maga h: 15 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 15:46:36,773 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 19:54:39,734 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://172.25.0.3:5700
+2023-09-14 19:54:39,734 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 19:54:39,735 [INFO]  * Restarting with stat
+2023-09-14 19:54:39,896 [WARNING]  * Debugger is active!
+2023-09-14 19:54:39,897 [INFO]  * Debugger PIN: 100-653-164
+2023-09-14 19:55:21,575 [INFO] sysid= 1 id= maga-006 app= Maga h: 19 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 19:55:21,575 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-09-14 20:00:22,443 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://172.25.0.3:5700
+2023-09-14 20:00:22,443 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 20:00:22,444 [INFO]  * Restarting with stat
+2023-09-14 20:00:22,590 [WARNING]  * Debugger is active!
+2023-09-14 20:00:22,590 [INFO]  * Debugger PIN: 100-653-164
+2023-09-14 20:03:14,422 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5700
+ * Running on http://172.25.0.3:5700
+2023-09-14 20:03:14,422 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-14 20:03:14,423 [INFO]  * Restarting with stat
+2023-09-14 20:03:14,562 [WARNING]  * Debugger is active!
+2023-09-14 20:03:14,563 [INFO]  * Debugger PIN: 100-653-164
+2023-09-14 20:03:29,001 [INFO] sysid= 1 id= maga-003 app= Maga h: 20 d: 14 wd: 3 w: 37 m: 9 y: 2023
+2023-09-14 20:03:29,002 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:18:11,402 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3001
+ * Running on http://172.24.0.3:3001
+2023-10-10 16:18:11,405 [INFO] [33mPress CTRL+C to quit[0m
+2023-10-10 16:18:11,407 [INFO]  * Restarting with stat
+2023-10-10 16:18:11,947 [WARNING]  * Debugger is active!
+2023-10-10 16:18:11,952 [INFO]  * Debugger PIN: 129-956-327
+2023-10-10 16:18:44,975 [INFO] 172.24.0.1 - - [10/Oct/2023 16:18:44] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 16:18:47,702 [INFO] 172.24.0.1 - - [10/Oct/2023 16:18:47] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 16:19:01,581 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:19:01,582 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:19:05,590 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:19:05,591 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:20:08,949 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:20:08,950 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:20:12,968 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:20:12,969 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:20:22,014 [INFO] 172.24.0.1 - - [10/Oct/2023 16:20:22] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 16:21:16,249 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:21:16,250 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:21:20,286 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:21:20,287 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:22:23,608 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:22:23,610 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:22:27,624 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:22:27,624 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:23:30,963 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:23:30,965 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:23:34,972 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:23:34,973 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:24:38,281 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:24:38,281 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:24:42,308 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:24:42,308 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:25:45,618 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:25:45,618 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:25:49,636 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:25:49,637 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:26:52,970 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:26:52,972 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:26:57,011 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:26:57,013 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:28:00,304 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:28:00,305 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:28:04,326 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:28:04,326 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:29:07,639 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:29:07,640 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:29:11,663 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:29:11,663 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:29:31,209 [INFO] 172.24.0.1 - - [10/Oct/2023 16:29:31] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 16:29:32,962 [INFO] 172.24.0.1 - - [10/Oct/2023 16:29:32] "GET /query_services HTTP/1.1" 200 -
+2023-10-10 16:29:37,731 [INFO] 172.24.0.1 - - [10/Oct/2023 16:29:37] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 16:30:14,972 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:30:14,972 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:30:19,038 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:30:19,039 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:31:02,701 [INFO] 172.24.0.1 - - [10/Oct/2023 16:31:02] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 16:31:22,325 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:31:22,325 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:31:26,371 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:31:26,373 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:32:29,652 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:32:29,653 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:32:33,698 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:32:33,699 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:33:36,993 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:33:36,993 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:33:41,038 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:33:41,039 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:34:21,384 [INFO] 172.24.0.1 - - [10/Oct/2023 16:34:21] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 16:34:22,284 [INFO] 172.24.0.1 - - [10/Oct/2023 16:34:22] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 16:34:44,351 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:34:44,352 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:34:48,380 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:34:48,382 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:35:51,700 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:35:51,701 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:35:55,718 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:35:55,719 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:36:59,036 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:36:59,039 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:37:03,065 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:37:03,066 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:38:06,367 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:38:06,369 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:38:10,404 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:38:10,405 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:38:55,065 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3001
+ * Running on http://172.24.0.3:3001
+2023-10-10 16:38:55,066 [INFO] [33mPress CTRL+C to quit[0m
+2023-10-10 16:38:55,069 [INFO]  * Restarting with stat
+2023-10-10 16:38:55,339 [WARNING]  * Debugger is active!
+2023-10-10 16:38:55,340 [INFO]  * Debugger PIN: 129-956-327
+2023-10-10 16:39:13,697 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:39:13,698 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:39:17,737 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:39:17,738 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:40:21,049 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:40:21,050 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:40:25,080 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:40:25,080 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:41:28,389 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:41:28,391 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:41:32,428 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:41:32,429 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:42:35,714 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:42:35,714 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:42:39,790 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:42:39,792 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:43:43,067 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:43:43,068 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:43:47,125 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:43:47,126 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:44:50,404 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:44:50,405 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:44:54,474 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:44:54,476 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:45:57,741 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:45:57,742 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:46:01,800 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:46:01,801 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:47:05,088 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:47:05,089 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:47:09,160 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:47:09,160 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:48:12,425 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:48:12,425 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:48:16,488 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:48:16,494 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:49:19,769 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:49:19,770 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:49:23,828 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:49:23,829 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:50:27,100 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:50:27,100 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:50:31,167 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:50:31,168 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:51:34,435 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:51:34,436 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:51:38,516 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:51:38,517 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:52:41,802 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:52:41,803 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:52:45,873 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:52:45,875 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:53:49,121 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:53:49,122 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:53:53,191 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:53:53,192 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:54:56,462 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:54:56,463 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:55:00,532 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:55:00,533 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:56:03,810 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:56:03,811 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:56:07,876 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:56:07,876 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:57:11,160 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:57:11,161 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:57:15,210 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:57:15,210 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:58:18,491 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:58:18,492 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:58:22,585 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:58:22,587 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:59:25,824 [INFO] sysid= 1 id= maga-006 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:59:25,826 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 16:59:29,911 [INFO] sysid= 1 id= maga-003 app= Maga h: 16 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 16:59:29,912 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:00:33,168 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:00:33,169 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:00:37,246 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:00:37,246 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:01:40,509 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:01:40,510 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:01:44,590 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:01:44,591 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:02:47,854 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:02:47,854 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:02:51,944 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:02:51,945 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:03:55,188 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:03:55,188 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:03:59,271 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:03:59,271 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:05:02,532 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:05:02,533 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:05:06,630 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:05:06,631 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:05:16,682 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:05:16,683 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:06:14,131 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:06:14,132 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:06:24,032 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:06:24,033 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:07:21,463 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:07:21,464 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:07:31,390 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:07:31,391 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:08:28,814 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:08:28,815 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:08:38,710 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:08:38,711 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:09:36,252 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:09:36,256 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:09:46,044 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:09:46,045 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:10:43,588 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:10:43,588 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:10:53,382 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:10:53,383 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:11:50,932 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:11:50,932 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:12:00,721 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:12:00,721 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:12:58,280 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:12:58,286 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:13:08,055 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:13:08,056 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:14:05,620 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:14:05,620 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:14:15,390 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:14:15,391 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:14:19,808 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:14:19,809 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:15:22,731 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:15:22,732 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:15:27,109 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:15:27,109 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:16:30,082 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:16:30,085 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:16:34,464 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:16:34,467 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:17:37,419 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:17:37,421 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:17:41,787 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:17:41,787 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:18:44,991 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:18:44,992 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:18:49,148 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:18:49,149 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:19:52,322 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:19:52,323 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:19:56,482 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:19:56,484 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:20:59,666 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:20:59,667 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:21:03,814 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:21:03,815 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:22:07,025 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:22:07,026 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:22:11,155 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:22:11,156 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:23:14,370 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:23:14,373 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:23:18,500 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:23:18,501 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:24:21,704 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:24:21,706 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:24:25,842 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:24:25,843 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:25:29,037 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:25:29,038 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:25:33,180 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:25:33,180 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:26:36,380 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:26:36,381 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:26:40,512 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:26:40,512 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:27:43,721 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:27:43,722 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:27:47,891 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:27:47,892 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:28:51,048 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:28:51,048 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:28:55,207 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:28:55,207 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:29:58,381 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:29:58,382 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:30:02,542 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:30:02,543 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:31:05,726 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:31:05,726 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:31:09,883 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:31:09,884 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:32:13,062 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:32:13,063 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:32:17,222 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:32:17,222 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:33:20,405 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:33:20,406 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:33:24,565 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:33:24,566 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:34:27,741 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:34:27,741 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:34:31,906 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:34:31,907 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:35:35,107 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:35:35,110 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:35:39,245 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:35:39,246 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:36:42,429 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:36:42,430 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:36:46,599 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:36:46,601 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:37:49,787 [INFO] sysid= 1 id= maga-006 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:37:49,788 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 17:37:53,926 [INFO] sysid= 1 id= maga-003 app= Maga h: 17 d: 10 wd: 1 w: 41 m: 10 y: 2023
+2023-10-10 17:37:53,926 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-10 21:47:23,248 [INFO] 172.24.0.1 - - [10/Oct/2023 21:47:23] "GET /data_devices?item=maga-003&periodicity=yearly&shift=day&day=10&month=10&year=2023 HTTP/1.1" 200 -
+2023-10-10 21:47:23,260 [INFO] 172.24.0.1 - - [10/Oct/2023 21:47:23] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 21:47:23,277 [INFO] 172.24.0.1 - - [10/Oct/2023 21:47:23] "GET /data_devices?item=null&periodicity=yearly&shift=day&day=10&month=10&year=2023 HTTP/1.1" 200 -
+2023-10-10 21:49:09,548 [INFO] 172.24.0.1 - - [10/Oct/2023 21:49:09] "GET /data_devices?item=maga-006&periodicity=weekly&shift=day&day=10&month=10&year=2023 HTTP/1.1" 200 -
+2023-10-10 21:49:09,559 [INFO] 172.24.0.1 - - [10/Oct/2023 21:49:09] "GET /query_devices HTTP/1.1" 200 -
+2023-10-10 21:49:09,575 [INFO] 172.24.0.1 - - [10/Oct/2023 21:49:09] "GET /data_devices?item=maga-006&periodicity=daily&shift=day&day=10&month=10&year=2023 HTTP/1.1" 200 -
+2023-10-11 13:55:03,992 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3001
+ * Running on http://172.24.0.2:3001
+2023-10-11 13:55:03,993 [INFO] [33mPress CTRL+C to quit[0m
+2023-10-11 13:55:03,998 [INFO]  * Restarting with stat
+2023-10-11 13:55:04,421 [WARNING]  * Debugger is active!
+2023-10-11 13:55:04,423 [INFO]  * Debugger PIN: 820-610-097
+2023-10-11 13:55:20,836 [INFO] sysid= 1 id= maga-006 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:55:20,837 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 13:55:34,447 [INFO] sysid= 1 id= maga-003 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:55:34,448 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 13:56:28,184 [INFO] sysid= 1 id= maga-006 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:56:28,185 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 13:56:41,788 [INFO] sysid= 1 id= maga-003 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:56:41,788 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 13:57:35,519 [INFO] sysid= 1 id= maga-006 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:57:35,520 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 13:57:49,122 [INFO] sysid= 1 id= maga-003 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:57:49,122 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 13:58:42,901 [INFO] sysid= 1 id= maga-006 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:58:42,904 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 13:58:56,475 [INFO] sysid= 1 id= maga-003 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:58:56,479 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 13:59:50,194 [INFO] sysid= 1 id= maga-006 app= Maga h: 13 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 13:59:50,195 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:00:03,841 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:00:03,842 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:00:17,980 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:00:17,981 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:00:57,535 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:00:57,536 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:01:25,331 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:01:25,332 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:02:04,890 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:02:04,890 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:02:32,647 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:02:32,647 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:03:12,263 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:03:12,264 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:03:39,997 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:03:39,998 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:04:19,564 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:04:19,565 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:04:47,342 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:04:47,343 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:05:26,921 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:05:26,922 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:05:54,667 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:05:54,682 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:06:34,244 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:06:34,244 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:07:02,042 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:07:02,043 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:07:41,574 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:07:41,575 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:08:09,349 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:08:09,350 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:08:48,916 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:08:48,916 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:09:16,698 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:09:16,699 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:09:56,271 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:09:56,273 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:10:24,076 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:10:24,077 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:11:03,622 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:11:03,623 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:11:31,370 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:11:31,372 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:12:10,972 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:12:10,973 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:12:38,705 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:12:38,706 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:13:18,297 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:13:18,299 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:13:46,080 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:13:46,081 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:14:25,652 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:14:25,664 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:14:53,420 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:14:53,424 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:15:32,961 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:15:32,962 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:16:00,750 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:16:00,751 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:16:40,335 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:16:40,336 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:17:08,083 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:17:08,084 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:17:47,655 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:17:47,657 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:18:15,422 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:18:15,423 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:18:54,987 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:18:54,988 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:19:22,757 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:19:22,757 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:20:02,348 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:20:02,350 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:20:30,146 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:20:30,150 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:21:09,686 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:21:09,687 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:21:37,474 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:21:37,475 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:22:17,051 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:22:17,052 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:22:44,774 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:22:44,775 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:23:24,372 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:23:24,373 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:23:52,128 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:23:52,129 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:24:31,698 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:24:31,699 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:24:59,468 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:24:59,468 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:25:39,032 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:25:39,032 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:26:06,801 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:26:06,801 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:26:46,369 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:26:46,369 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:27:14,149 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:27:14,150 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:27:53,721 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:27:53,721 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:28:21,488 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:28:21,488 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:29:01,049 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:29:01,050 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:29:15,213 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:29:15,213 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:29:28,832 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:29:28,832 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:30:22,544 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:30:22,544 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:30:36,176 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:30:36,177 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:31:29,893 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:31:29,895 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:31:43,541 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:31:43,543 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:32:37,243 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:32:37,244 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:32:50,860 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:32:50,860 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:33:44,566 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:33:44,566 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:33:58,288 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:33:58,289 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:34:51,928 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:34:51,929 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:35:05,585 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:35:05,586 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:35:59,241 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:35:59,244 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:36:12,907 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:36:12,909 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:37:06,603 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:37:06,604 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:37:20,229 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:37:20,230 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:38:13,952 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:38:13,953 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:38:27,575 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:38:27,576 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:39:21,268 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:39:21,269 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:39:34,940 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:39:34,942 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:40:28,583 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:40:28,584 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:40:42,283 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:40:42,284 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:41:35,941 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:41:35,942 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:41:49,612 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:41:49,613 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:42:43,268 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:42:43,272 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:42:56,960 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:42:56,961 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:43:50,630 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:43:50,632 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:44:04,286 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:44:04,287 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:44:57,962 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:44:57,963 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:45:11,631 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:45:11,632 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:46:05,291 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:46:05,292 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:46:18,968 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:46:18,968 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:47:12,621 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:47:12,621 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:47:26,333 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:47:26,334 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:48:19,978 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:48:19,978 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:48:33,667 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:48:33,667 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:49:27,329 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:49:27,329 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:49:40,998 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:49:40,999 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:50:34,677 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:50:34,678 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:50:48,342 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:50:48,342 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:51:41,997 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:51:41,998 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:51:55,690 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:51:55,690 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:52:49,343 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:52:49,344 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:53:03,023 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:53:03,024 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:53:56,667 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:53:56,668 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:54:10,368 [INFO] sysid= 1 id= maga-003 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:54:10,369 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 14:55:03,993 [INFO] sysid= 1 id= maga-006 app= Maga h: 14 d: 11 wd: 2 w: 41 m: 10 y: 2023
+2023-10-11 14:55:03,994 [INFO] [{'name': 'Manos limpias', 'prop': 'clean_hands', 'value': 0}, {'name': 'manos sucias', 'prop': 'dirty_hands', 'value': 0}, {'name': 'Consumo de guantes', 'prop': 'box_chanes', 'value': 0}]
+2023-10-11 15:47:39,008 [INFO] 172.24.0.1 - - [11/Oct/2023 15:47:39] "GET /data_services?item=UCI-test&periodicity=yearly&shift=day&day=10&month=10&year=2023 HTTP/1.1" 200 -
+2023-10-11 18:19:07,538 [INFO] 172.24.0.1 - - [11/Oct/2023 18:19:07] "[33mGET /create_device?deviceId=holito&service=d&area=d&cubicle=d HTTP/1.1[0m" 404 -
+2023-10-11 18:19:39,728 [INFO] 172.24.0.1 - - [11/Oct/2023 18:19:39] "[33mGET /create_device?deviceId=holito&service=d&area=d&cubicle=d HTTP/1.1[0m" 404 -
+2023-10-11 20:57:41,196 [INFO] 172.24.0.1 - - [11/Oct/2023 20:57:41] "GET /query_devices HTTP/1.1" 200 -
+2023-10-11 20:57:42,188 [INFO] 172.24.0.1 - - [11/Oct/2023 20:57:42] "GET /query_devices HTTP/1.1" 200 -
