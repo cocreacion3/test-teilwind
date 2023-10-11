@@ -46,6 +46,7 @@ export default function Sidebar() {
     }
 
     //////////////////////////////////////////////////////////////  device or service selected from list of devices
+    const [selectedDeviceOrService, setSelectedDeviceOrService] = useState(null);
     const { selectedDevServ, updateDevServSelected } = useDevServSelected();
     const handleClickServDevSelected = (name) =>{
         updateDevServSelected(name);
@@ -90,18 +91,26 @@ export default function Sidebar() {
                 </ul>
                 <span className="text-withe text-xl font-bold ">Filtrar por</span>
                 <ul className="text-center">
-                    <li className={dataFilter === 'devices' ? "commond-buttons-active" : 'commond-buttons'} onClick={() => {handleClickDataFilter('devices'); handleClickServDevSelected(null)}}><button>Dispositivo</button></li>
-                    <li className={dataFilter === 'services' ? "commond-buttons-active" : 'commond-buttons'} onClick={() => {handleClickDataFilter('services'); handleClickServDevSelected(null)}}><button>Servicio</button></li>
-
+                <li className={dataFilter === 'devices' ? "commond-buttons-active" : 'commond-buttons'} onClick={() => { handleClickDataFilter('devices'); setSelectedDeviceOrService(null); handleClickServDevSelected(null); }}><button>Dispositivo</button></li>
+                <li className={dataFilter === 'services' ? "commond-buttons-active" : 'commond-buttons'} onClick={() => { handleClickDataFilter('services'); setSelectedDeviceOrService(null);handleClickServDevSelected(null); }}><button>Servicio</button></li>
                 </ul>
 
 
                 <span className="text-withe text-xl font-bold ">Seleccionar</span>
-                <div className="w-40 h-30 overflow-y-auto py-2">
+                <div className="w-40 h-34 overflow-y-auto py-2 px-2">
                     {Array.isArray(devices) && devices.length > 0 && devices.map((device, index) => (
                         <label className="flex items-center mb-2" key={index}>
-                            <input type="radio" name="selected-dev-serv" className="form-checkbox h-5 w-5 text-blue-600"  onClick={() => handleClickServDevSelected(device)}></input>
-                            <span className="ml-2">{device}</span>
+                            <input
+                            type="radio"
+                            name="selected-dev-serv"
+                            className="form-checkbox h-5 w-5 text-blue-600"
+                            onClick={() => {
+                                handleClickServDevSelected(device);
+                                setSelectedDeviceOrService(device); // Update the selected device or service
+                            }}
+                            checked={device === selectedDeviceOrService} // Set checked based on selected state
+                        ></input>
+                        <span className="ml-2">{device}</span>
                         </label>
                     ))}
                 </div>

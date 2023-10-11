@@ -6,33 +6,41 @@ import { useTimelapse } from './providers/SidebarContext'
 import { useExportData } from './providers/SidebarContext';
 import { useDevServSelected } from './providers/SidebarContext';
 import { usePackagedData } from './providers/SidebarContext';
+import { useDate } from './providers/SidebarContext';
+import { useDataFilter } from './providers/SidebarContext';
+import { useShift } from './providers/SidebarContext'
 
 
 
 export default function LineGraph() {
     const { timelapse, updateTimelapse } = useTimelapse();
     const { isLoading, incomingData } = useGetData();
+    const { dataFilter, updateDataFilter } = useDataFilter();
     const contextData = useContext(QueryDataResultContext);
     const { devServSelected, updateDevServSelected } = useDevServSelected();
+    const { selectedDate } = useDate();
+    const { shift, updateShift } = useShift();
     const { dataToExport, dataToexportToCSV, updateExportData  } = useExportData();
     const {packagedData, updatePackagedData} = usePackagedData();
     const handlePackagedData = (name) =>{
         updatePackagedData(name);
     }
-    
+
     let csvData = []
     useEffect(() => {handlePackagedData(csvData);}, [csvData]); // This will ensure it's called when csvData changes
 
-
-    if (!timelapse) {
-        return <p>No data available for the graph timelapse.</p>;
+    if(!selectedDate){
+        return (<span className="text-white text-2xl font-bold  justify-left px-20 py-10 ">Por favor selecciona la fecha</span> )
+    }
+    if(!devServSelected){
+        return (<span className="text-white text-2xl font-bold  justify-left px-20 py-10 ">Por favor selecciona el dispositivo o servicio</span> )
     }
 
     let incoming_data = incomingData?.data;
-    if (incomingData?.data && Array.isArray(incomingData.data)) {
+    if (incomingData?.data && Array.isArray(incomingData.data) && incomingData.data.length > 0) {
         incoming_data = incomingData.data
     }
-    else { return <p>No data available for the graph.</p>; }
+    else { return (<span className="text-white text-2xl font-bold  justify-left px-20 py-10 ">Ooops... aún no se han generado datos para los filtros seleccionados</span> )}
 
     // console.log("Query data = ", incoming_data);
     const hours = [];
@@ -84,34 +92,66 @@ export default function LineGraph() {
 
     let periodicity = [];
     let periodicityLabel = '';
+    let periodicityLabelExportData = '';
     switch (timelapse) {
         case 'daily':
             periodicity = [...hours];
             periodicityLabel = 'Hora'
+            periodicityLabelExportData = 'Diario'
             break;
         case 'weekly':
             periodicity = [...days];
             periodicityLabel = 'Dia'
+            periodicityLabelExportData = 'Semanal'
             break;
         case 'monthly':
             periodicity = [...weeks];
             periodicityLabel = 'Semana'
+            periodicityLabelExportData = 'Mensual'
             break;
         case 'yearly':
             periodicity = [...months]
-            periodicityLabel = 'Mese'
+            periodicityLabel = 'Mes'
+            periodicityLabelExportData = 'Anual'
             break;
         default:
             periodicity = []
+            break;
     }
 
     //////////////////////////////////////////////////////
+    let devOrServ = '';
+    switch(dataFilter){
+        case 'devices':
+            devOrServ = 'Dispositivo'
+            break;
+        case 'services':
+            devOrServ = 'Servicio'
+            break;
+        default:
+            devOrServ = 'error'
+            break;
+    }
+    let exportShift = ''
+    switch(shift){
+        case 'day':
+            exportShift = 'Diurno'
+            break;
+        case 'nigth':
+            exportShift = 'Nocturno'
+            break;
+        default:
+            exportShift = 'error'
+            break;
+    }
+
     const allGraphData = [];
     let currentIndex = 0;
-    const dataTitle = devServSelected; // Your title here
-    
+    const exportDate = selectedDate.day.toString() + '/' + selectedDate.month.toString() + '/' + selectedDate.year.toString();
+
+
     // Add the title at the very beginning of the CSV data
-    allGraphData.push([dataTitle]);
+    allGraphData.push([[devOrServ, devServSelected], ['Periodicidad', periodicityLabelExportData], ['Turno', exportShift], ['Fecha', exportDate]]);
     
     propertyArrays.forEach((property, index) => {
       const { prop, values } = property;
@@ -124,7 +164,7 @@ export default function LineGraph() {
     
       if (index === currentIndex) {
         // Append the graph name as the title only once for each graph
-        data.unshift([`${prop}`, `${graphName}`]);
+        data.unshift([`${graphName}`]);
         currentIndex++;
       }
     
