@@ -27,11 +27,6 @@ export default function Layout() {
       <QueryClientProvider client={queryClient}>
         <TimelapseProvider><ShiftProvider><DataFilterProvider><DevServSelectedProvider><DateProvider><ExportDataProvider><PackagedDataProvider>
           <Sidebar />
-          {/* <Testbutton /> */}
-          {/* <ExportTest/> */}
-
-
-
           <div className='flex-1'>
             <Header />
             <Dashboard />

@@ -16,17 +16,38 @@ export default function ProjectsSelector() {
                         ¡Bienvenido!
                     </strong>
                 </div>
-                <div className='py-2 grid grid-rows-2 grid-flow-col gap-32 h- justify-center text-white'>
-
-                    <Link to="/" className='text-white'>
-                        <div className='text-center font-bold text-4xl no-underline'><BiMeteor fontSize={150}  className='hover:animate-ping'/> MAGA</div>
+                <div className='grid grid-rows-2 grid-flow-col gap-24 h- justify-center text-white'>
+                    <Link to="/maga" className='text-white'>
+                        <div className='flex flex-col items-center text-center'>
+                            <BiMeteor fontSize={150} className='hover:animate-ping' />
+                            <div className='font-bold text-4xl no-underline'>MAGA</div>
+                        </div>
                     </Link>
-                    <div className='text-center font-bold text-4xl'><BiMeteor fontSize={150} /> MAGA</div>
-                    <div className='text-center font-bold text-4xl'><BiMeteor fontSize={150} /> MAGA</div>
-                    <div className='text-center font-bold text-4xl'><BiMeteor fontSize={150} /> MAGA</div>
-                    <div className='text-center font-bold text-4xl'><BiMeteor fontSize={150} /> MAGA</div>
-                    <div className='text-center font-bold text-4xl'><BiMeteor fontSize={150} /> MAGA</div>
 
+                    <div className='flex flex-col items-center text-center text-gray-400'>
+                        <BiMeteor fontSize={150} />
+                        <div className='font-bold text-4xl '>Proyecto x</div>
+                    </div>
+
+                    <div className='flex flex-col items-center text-center text-gray-400'>
+                        <BiMeteor fontSize={150} />
+                        <div className='font-bold text-4xl'>Sonómetro</div>
+                    </div>
+
+                    <div className='flex flex-col items-center text-center text-gray-400'>
+                        <BiMeteor fontSize={150} />
+                        <div className='font-bold text-4xl'>Proyecto y</div>
+                    </div>
+
+                    <div className='flex flex-col items-center text-center text-gray-400'>
+                        <BiMeteor fontSize={150} />
+                        <div className='font-bold text-4xl'>Proyecto z</div>
+                    </div>
+
+                    <div className='flex flex-col items-center text-center text-gray-400'>
+                        <BiMeteor fontSize={150} />
+                        <div className='font-bold text-4xl'>Proyecto w</div>
+                    </div>
                 </div>
                 <Footer />
             </div>

@@ -97,7 +97,7 @@ export default function Sidebar() {
 
 
                 <span className="text-withe text-xl font-bold ">Seleccionar</span>
-                <div className="w-40 h-34 overflow-y-auto py-2 px-2">
+                <div className="w-40 h-36 overflow-y-auto py-2 px-2">
                     {Array.isArray(devices) && devices.length > 0 && devices.map((device, index) => (
                         <label className="flex items-center mb-2" key={index}>
                             <input
@@ -114,8 +114,9 @@ export default function Sidebar() {
                         </label>
                     ))}
                 </div>
-                {/* <span className="text-withe text-xl font-bold ">Seleccionar</span> */}
-                <button className='commond-buttons' onClick={handleExport}>Exportar</button>
+                <div className='py-4'>
+                    <button className='commond-buttons py-10' onClick={handleExport}>Exportar</button>
+                </div>
             </div>
         </div>
     )
